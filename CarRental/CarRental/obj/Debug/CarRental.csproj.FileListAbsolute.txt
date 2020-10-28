@@ -1,0 +1,9 @@
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\bin\Debug\CarRental.exe.config
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\bin\Debug\CarRental.exe
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\bin\Debug\CarRental.pdb
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\obj\Debug\CarRental.csprojAssemblyReference.cache
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\obj\Debug\CarRental.Form1.resources
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\obj\Debug\CarRental.Properties.Resources.resources
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\obj\Debug\CarRental.csproj.GenerateResource.cache
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\obj\Debug\CarRental.exe
+D:\201\lập trình hướng đối tượng\assignment\CarRental\CarRental\CarRental\obj\Debug\CarRental.pdb
