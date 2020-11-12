@@ -14,6 +14,7 @@ namespace CarRental
         public int seat;
         public string state;
         public int mileage;
+        
         public ServiceHistory History;
         public Vehicles() { }
         public Vehicles(string c, int p, string b, int s, string _state)
@@ -23,11 +24,16 @@ namespace CarRental
             brand = b;
             seat = s;
             state = _state;
+           
             
         }
         public Vehicles(int n)
         {
             List<Vehicles> VehicleList = new List<Vehicles>();
+        }
+        public Vehicles(ServiceHistory H)
+        {
+            History = H;
         }
         public abstract void ServiceEngine();
 

@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarRental
 {
-    static class Constant
-    {
-        public const int MAXMILEAGE = 100000;
-    }
+   
     class CarRentalManagement
     {
 
@@ -17,9 +14,35 @@ namespace CarRental
         {
            
         }
-        public void ServiceFleet(List<Vehicles> List)
+        public void ServiceFleet(List<Car> carList,List<Bicycle> bicycleList,List<Truck>truckList)
         {
-
+            foreach(Vehicles item in carList)
+            {
+                if(item.mileage>100000)
+                {
+                    item.ServiceEngine();
+                    item.ServiceTires();
+                    item.ServiceTransmission();
+                }
+            }
+            foreach (Vehicles item in bicycleList)
+            {
+                if (item.mileage > 100000)
+                {
+                    item.ServiceEngine();
+                    item.ServiceTires();
+                    item.ServiceTransmission();
+                }
+            }
+            foreach (Vehicles item in bicycleList)
+            {
+                if (item.mileage > 100000)
+                {
+                    item.ServiceEngine();
+                    item.ServiceTires();
+                    item.ServiceTransmission();
+                }
+            }
         }
     }
 }

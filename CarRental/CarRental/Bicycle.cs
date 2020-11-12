@@ -8,17 +8,24 @@ namespace CarRental
 {
     class Bicycle:Vehicles
     {
-        public override void serviceEngine()
+        public override void ServiceEngine()
         {
-            throw new NotImplementedException();
+            History._Engine.major = "";
+            History._Engine.minor = "";
+            History._Engine.oilChange = "";
+
         }
-        public override void serviceTires()
+        public override void ServiceTires()
         {
-            throw new NotImplementedException();
+            History._Tires.adjustment = "";
+            History._Tires.replacement = "";
+
         }
-        public override void serviceTransmission()
+        public override void ServiceTransmission()
         {
-            throw new NotImplementedException();
+            History._Engine.major = "";
+            History._Engine.minor = "";
+            History._Engine.oilChange = "";
         }
     }
 }
