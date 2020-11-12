@@ -6,36 +6,34 @@ using System.Threading.Tasks;
 
 namespace CarRental
 {
-    class Vehicles
+    abstract class Vehicles
     {
         public string color;
         public int price;
-        public string type;
         public string brand;
         public int seat;
         public string state;
-
-        public Vehicles()
+        public int mileage;
+        public ServiceHistory History;
+        public Vehicles() { }
+        public Vehicles(string c, int p, string b, int s, string _state)
         {
-
+            color = c;
+            price = p;
+            brand = b;
+            seat = s;
+            state = _state;
+            
         }
-        ~Vehicles() { }
+        public Vehicles(int n)
+        {
+            List<Vehicles> VehicleList = new List<Vehicles>();
+        }
+        public abstract void ServiceEngine();
+
+        public abstract void ServiceTransmission();
+        public abstract void ServiceTires();
         
-    }
-
-    class Car : Vehicles
-    {
-        
-    }
-    
-    class Truck: Vehicles
-    {
-        public int weightLoad;
-    }
-
-    class Bus: Vehicles
-    {
-
     }
 
 }
